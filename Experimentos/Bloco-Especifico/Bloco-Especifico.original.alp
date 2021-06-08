@@ -3051,6 +3051,18 @@ graficos.passageirosRevistados = segurança.passageirosRevistados]]></Action>
 								<Code><![CDATA[graficos.statsFilaIniBagagem]]></Code>
 							</Value>
 						</Parameter>
+						<Parameter>
+							<Name><![CDATA[retornoDetectorLinha]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[pontoInicio]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[retornoRaioxLinha]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[pontoInicio]]></Code>
+							</Value>
+						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
 					<Replication Class="CodeValue">
@@ -7415,6 +7427,276 @@ Estes por sua vez podem ser editados clicando no bloco do componente.]]></Text>
 					</ImageFiles>
 					<OriginalSize>false</OriginalSize>
 				</Image>
+				<RectangleNode>
+					<Id>1619884070557</Id>
+					<Name><![CDATA[pontoInicio]]></Name>
+					<X>281</X><Y>543</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<EmbeddedObject>
+						<ActiveObjectClass>
+							<PackageName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></PackageName>
+							<ClassName><![CDATA[AreaNodeDescriptor]]></ClassName>
+						</ActiveObjectClass>
+						<GenericParameterSubstitute>
+							<GenericParameterSubstituteReference>
+								<PackageName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></PackageName>
+								<ClassName><![CDATA[AreaNodeDescriptor]]></ClassName>
+								<ItemName><![CDATA[1574694148121]]></ItemName>
+							</GenericParameterSubstituteReference>
+						</GenericParameterSubstitute>
+						<Parameters>
+							<Parameter>
+								<Name><![CDATA[appliedClass]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[speedRestricted]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[maxSpeed]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[accessRestricted]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[accessRestrictionType]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[accessRestrictionCondition]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[capacity]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[throughput]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[schedule]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[avoidedIfClosed]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onEnter]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onEnterDenied]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onExit]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onOpen]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onClose]]></Name>
+							</Parameter>
+						</Parameters>
+						<ReplicationFlag>false</ReplicationFlag>
+						<Replication Class="CodeValue">
+							<Code><![CDATA[100]]></Code>
+						</Replication>
+						<CollectionType>ARRAY_LIST_BASED</CollectionType>
+						<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+						<XCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</XCode>
+						<YCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</YCode>
+						<ZCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</ZCode>
+						<ColumnCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</ColumnCode>
+						<RowCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</RowCode>
+						<LatitudeCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</LatitudeCode>
+						<LongitudeCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</LongitudeCode>
+						<LocationNameCode Class="CodeValue">
+							<Code><![CDATA[""]]></Code>
+						</LocationNameCode>
+						<InitializationType>SPECIFIED_NUMBER</InitializationType>
+						<InitializationDatabaseTableQuery>
+							<TableReference>
+							</TableReference>
+						</InitializationDatabaseTableQuery>
+						<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+						<QuantityColumn>
+						</QuantityColumn>
+					</EmbeddedObject>
+					<LineColor>-14774017</LineColor>
+					<FillColor/>
+					<LineWidth>1</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillMaterial>null</FillMaterial>
+					<LineStyle>DASHED</LineStyle>
+					<AttractorsLayout>random</AttractorsLayout>
+					<Sloped>false</Sloped>
+					<Slope>
+						<Id>1619884070555</Id>
+						<Name><![CDATA[pontoInicio]]></Name>
+						<X>0</X><Y>10</Y>
+						<PublicFlag>false</PublicFlag>
+						<PresentationFlag>true</PresentationFlag>
+						<ShowLabel>true</ShowLabel>
+						<Dx>20</Dx>
+						<Dy>0</Dy>
+						<Dz>0</Dz>
+						<AngleX>30</AngleX>
+						<AngleZ>0</AngleZ>
+						<SlopeType>angle</SlopeType>	
+					</Slope>
+
+					<Width>7</Width>
+					<Height>7</Height>
+					<Rotation>0.0</Rotation>
+				</RectangleNode>
+				<RectangleNode>
+					<Id>1619884070584</Id>
+					<Name><![CDATA[pontoFinal]]></Name>
+					<X>361</X><Y>543</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<EmbeddedObject>
+						<ActiveObjectClass>
+							<PackageName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></PackageName>
+							<ClassName><![CDATA[AreaNodeDescriptor]]></ClassName>
+						</ActiveObjectClass>
+						<GenericParameterSubstitute>
+							<GenericParameterSubstituteReference>
+								<PackageName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></PackageName>
+								<ClassName><![CDATA[AreaNodeDescriptor]]></ClassName>
+								<ItemName><![CDATA[1574694148121]]></ItemName>
+							</GenericParameterSubstituteReference>
+						</GenericParameterSubstitute>
+						<Parameters>
+							<Parameter>
+								<Name><![CDATA[appliedClass]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[speedRestricted]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[maxSpeed]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[accessRestricted]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[accessRestrictionType]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[accessRestrictionCondition]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[capacity]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[throughput]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[schedule]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[avoidedIfClosed]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onEnter]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onEnterDenied]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onExit]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onOpen]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onClose]]></Name>
+							</Parameter>
+						</Parameters>
+						<ReplicationFlag>false</ReplicationFlag>
+						<Replication Class="CodeValue">
+							<Code><![CDATA[100]]></Code>
+						</Replication>
+						<CollectionType>ARRAY_LIST_BASED</CollectionType>
+						<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+						<XCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</XCode>
+						<YCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</YCode>
+						<ZCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</ZCode>
+						<ColumnCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</ColumnCode>
+						<RowCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</RowCode>
+						<LatitudeCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</LatitudeCode>
+						<LongitudeCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</LongitudeCode>
+						<LocationNameCode Class="CodeValue">
+							<Code><![CDATA[""]]></Code>
+						</LocationNameCode>
+						<InitializationType>SPECIFIED_NUMBER</InitializationType>
+						<InitializationDatabaseTableQuery>
+							<TableReference>
+							</TableReference>
+						</InitializationDatabaseTableQuery>
+						<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+						<QuantityColumn>
+						</QuantityColumn>
+					</EmbeddedObject>
+					<LineColor>-14774017</LineColor>
+					<FillColor/>
+					<LineWidth>1</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillMaterial>null</FillMaterial>
+					<LineStyle>DASHED</LineStyle>
+					<AttractorsLayout>random</AttractorsLayout>
+					<Sloped>false</Sloped>
+					<Slope>
+						<Id>1619884070582</Id>
+						<Name><![CDATA[pontoFinal]]></Name>
+						<X>0</X><Y>10</Y>
+						<PublicFlag>false</PublicFlag>
+						<PresentationFlag>true</PresentationFlag>
+						<ShowLabel>true</ShowLabel>
+						<Dx>20</Dx>
+						<Dy>0</Dy>
+						<Dz>0</Dz>
+						<AngleX>30</AngleX>
+						<AngleZ>0</AngleZ>
+						<SlopeType>angle</SlopeType>	
+					</Slope>
+
+					<Width>7</Width>
+					<Height>7</Height>
+					<Rotation>0.0</Rotation>
+				</RectangleNode>
 			</Presentation>
 
 				</Level>
@@ -10171,8 +10453,8 @@ totalPassageirosFinalizaram++]]></Code>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>0</X><Y>-49</Y></Point>
-						<Point><X>-270</X><Y>-49</Y></Point>
-						<Point><X>-270</X><Y>1</Y></Point>
+						<Point><X>-215</X><Y>-49</Y></Point>
+						<Point><X>-215</X><Y>1</Y></Point>
 						<Point><X>-180</X><Y>1</Y></Point>
 					</Points>
 				</Connector>
@@ -11353,6 +11635,50 @@ totalPassageirosFinalizaram++]]></Code>
 						</ParameterEditor>
 					</Properties>                 
 				</Variable>
+				<Variable Class="Parameter">
+					<Id>1619884195426</Id>
+					<Name><![CDATA[retornoDetectorLinha]]></Name>
+					<X>250</X><Y>400</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[Node]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<ParameterEditor>
+							<Id>1619884195424</Id>
+							<Label><![CDATA[retornoDetector]]></Label>
+							<EditorContolType>ELEMENT_CHOOSER</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1619884199297</Id>
+					<Name><![CDATA[retornoRaioxLinha]]></Name>
+					<X>250</X><Y>450</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[Node]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<ParameterEditor>
+							<Id>1619884199295</Id>
+							<Label><![CDATA[retornoraiox]]></Label>
+							<EditorContolType>ELEMENT_CHOOSER</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
 			</Variables>
 			<Ports>
 				<Port>
@@ -11384,7 +11710,7 @@ totalPassageirosFinalizaram++]]></Code>
 				<Connector>
 					<Id>1616626432166</Id>
 					<Name><![CDATA[connector1]]></Name>
-					<X>310</X><Y>250</Y>
+					<X>600</X><Y>250</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -11402,16 +11728,15 @@ totalPassageirosFinalizaram++]]></Code>
 					<TargetId>1616626401502</TargetId>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-50</X><Y>0</Y></Point>
-						<Point><X>-50</X><Y>90</Y></Point>
-						<Point><X>830</X><Y>90</Y></Point>
-						<Point><X>830</X><Y>-30</Y></Point>
+						<Point><X>0</X><Y>50</Y></Point>
+						<Point><X>540</X><Y>50</Y></Point>
+						<Point><X>540</X><Y>-30</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1616626728323</Id>
 					<Name><![CDATA[connector6]]></Name>
-					<X>350</X><Y>250</Y>
+					<X>640</X><Y>250</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -11438,13 +11763,13 @@ totalPassageirosFinalizaram++]]></Code>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>50</X><Y>0</Y></Point>
+						<Point><X>90</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1616628222559</Id>
 					<Name><![CDATA[connector]]></Name>
-					<X>590</X><Y>170</Y>
+					<X>820</X><Y>170</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -11471,120 +11796,15 @@ totalPassageirosFinalizaram++]]></Code>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-70</X><Y>0</Y></Point>
-						<Point><X>-70</X><Y>80</Y></Point>
-						<Point><X>-150</X><Y>80</Y></Point>
+						<Point><X>-50</X><Y>0</Y></Point>
+						<Point><X>-50</X><Y>80</Y></Point>
+						<Point><X>-50</X><Y>80</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1616628429375</Id>
 					<Name><![CDATA[connector2]]></Name>
-					<X>730</X><Y>170</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[bloco_especifico]]></PackageName>
-						<ClassName><![CDATA[VerificaSegurançaPadrao]]></ClassName>
-						<ItemName><![CDATA[sseletorDetector]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[SelectOutput]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[bloco_especifico]]></PackageName>
-						<ClassName><![CDATA[VerificaSegurançaPadrao]]></ClassName>
-						<ItemName><![CDATA[detectorMetal]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedService]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-100</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1616628449937</Id>
-					<Name><![CDATA[connector3]]></Name>
-					<X>650</X><Y>250</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[bloco_especifico]]></PackageName>
-						<ClassName><![CDATA[VerificaSegurançaPadrao]]></ClassName>
-						<ItemName><![CDATA[retornoDetector]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Delay]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[bloco_especifico]]></PackageName>
-						<ClassName><![CDATA[VerificaSegurançaPadrao]]></ClassName>
-						<ItemName><![CDATA[sseletorDetector]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[SelectOutput]]></ClassName>
-						<ItemName><![CDATA[outF]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-60</X><Y>0</Y></Point>
-						<Point><X>-60</X><Y>30</Y></Point>
-						<Point><X>90</X><Y>30</Y></Point>
-						<Point><X>90</X><Y>-70</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1616628460132</Id>
-					<Name><![CDATA[connector7]]></Name>
-					<X>690</X><Y>250</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[bloco_especifico]]></PackageName>
-						<ClassName><![CDATA[VerificaSegurançaPadrao]]></ClassName>
-						<ItemName><![CDATA[retornoDetector]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Delay]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[bloco_especifico]]></PackageName>
-						<ClassName><![CDATA[VerificaSegurançaPadrao]]></ClassName>
-						<ItemName><![CDATA[detectorMetal]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedService]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>20</X><Y>0</Y></Point>
-						<Point><X>20</X><Y>-30</Y></Point>
-						<Point><X>-100</X><Y>-30</Y></Point>
-						<Point><X>-100</X><Y>-80</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1616626322692</Id>
-					<Name><![CDATA[connector4]]></Name>
-					<X>820</X><Y>170</Y>
+					<X>920</X><Y>170</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -11602,22 +11822,22 @@ totalPassageirosFinalizaram++]]></Code>
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[bloco_especifico]]></PackageName>
 						<ClassName><![CDATA[VerificaSegurançaPadrao]]></ClassName>
-						<ItemName><![CDATA[sseletorDetector]]></ItemName>
+						<ItemName><![CDATA[detectorMetal]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[SelectOutput]]></ClassName>
-						<ItemName><![CDATA[outT]]></ItemName>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedService]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-70</X><Y>0</Y></Point>
+						<Point><X>-60</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1616783080555</Id>
 					<Name><![CDATA[connector5]]></Name>
-					<X>990</X><Y>170</Y>
+					<X>1090</X><Y>170</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -11635,14 +11855,14 @@ totalPassageirosFinalizaram++]]></Code>
 					<TargetId>1616626411525</TargetId>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>200</X><Y>0</Y></Point>
-						<Point><X>200</X><Y>50</Y></Point>
+						<Point><X>100</X><Y>0</Y></Point>
+						<Point><X>100</X><Y>50</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1616972343069</Id>
 					<Name><![CDATA[connector8]]></Name>
-					<X>890</X><Y>250</Y>
+					<X>990</X><Y>250</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -11678,7 +11898,7 @@ totalPassageirosFinalizaram++]]></Code>
 				<Connector>
 					<Id>1616972343073</Id>
 					<Name><![CDATA[connector9]]></Name>
-					<X>930</X><Y>250</Y>
+					<X>1030</X><Y>250</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -11714,7 +11934,7 @@ totalPassageirosFinalizaram++]]></Code>
 				<Connector>
 					<Id>1616972364505</Id>
 					<Name><![CDATA[connector10]]></Name>
-					<X>860</X><Y>170</Y>
+					<X>960</X><Y>170</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -11788,7 +12008,7 @@ totalPassageirosFinalizaram++]]></Code>
 				<EmbeddedObject>
 					<Id>1616626322630</Id>
 					<Name><![CDATA[filaAcessoService]]></Name>
-					<X>310</X><Y>240</Y>
+					<X>600</X><Y>240</Y>
 					<Label><X>-30</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -11907,7 +12127,7 @@ totalPassageirosFinalizaram++]]></Code>
 				<EmbeddedObject>
 					<Id>1616626322646</Id>
 					<Name><![CDATA[iniBagagemService]]></Name>
-					<X>400</X><Y>240</Y>
+					<X>730</X><Y>240</Y>
 					<Label><X>-31</X><Y>31</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -12029,7 +12249,7 @@ totalPassageirosFinalizaram++]]></Code>
 				<EmbeddedObject>
 					<Id>1616626322659</Id>
 					<Name><![CDATA[detectorMetal]]></Name>
-					<X>590</X><Y>160</Y>
+					<X>820</X><Y>160</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -12156,7 +12376,7 @@ statsTempDetectorMetalS.add(ped.time(SECOND) - iniTempDetectorMetalS)]]></Code>
 				<EmbeddedObject>
 					<Id>1616626322673</Id>
 					<Name><![CDATA[devBagagemService]]></Name>
-					<X>820</X><Y>160</Y>
+					<X>920</X><Y>160</Y>
 					<Label><X>-32</X><Y>-13</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -12280,211 +12500,9 @@ statsTempDevBagagemS.add(ped.time(SECOND) - iniTempDevBagagemS)]]></Code>
 					<Logging>false</Logging>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1616628427995</Id>
-					<Name><![CDATA[sseletorDetector]]></Name>
-					<X>720</X><Y>160</Y>
-					<Label><X>-15</X><Y>-20</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[SelectOutput]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-							<ClassName><![CDATA[SelectOutput]]></ClassName>
-							<ItemName><![CDATA[1412336242931]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[conditionIsProbabilistic]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[false]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[condition]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[(agent.objetoSuspeitoMetal && agent.retornoDetector) || !agent.objetoSuspeitoMetal]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[probability]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onAtEnter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExitTrue]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExitFalse]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
-					<XCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</XCode>
-					<YCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</YCode>
-					<ZCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ZCode>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LatitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LatitudeCode>
-					<LongitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LongitudeCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-					<Logging>false</Logging>
-				</EmbeddedObject>
-				<EmbeddedObject>
-					<Id>1616628447406</Id>
-					<Name><![CDATA[retornoDetector]]></Name>
-					<X>650</X><Y>230</Y>
-					<Label><X>-25</X><Y>40</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Delay]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-							<ClassName><![CDATA[Delay]]></ClassName>
-							<ItemName><![CDATA[1412336242930]]></ItemName>
-						</GenericParameterSubstituteReference>
-						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Passageiro]]></Code>
-						</GenericParameterSubstituteValue>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[type]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[delayTime]]></Name>
-							<Value Class="CodeUnitValue">
-								<Code><![CDATA[retornoDetectorTempDist.defineValor()]]></Code>
-								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[capacity]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maximumCapacity]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[entityLocation]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[retorno]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[pushProtocol]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[forceStatisticsCollection]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnter]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[iniTempRetornoDetector = agent.time(SECOND)]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onAtExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExit]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.retornoDetector = true;
-statsTempRetornoDetector.add(agent.time(SECOND) -iniTempRetornoDetector)]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onRemove]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
-					<XCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</XCode>
-					<YCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</YCode>
-					<ZCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ZCode>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LatitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LatitudeCode>
-					<LongitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LongitudeCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-					<Logging>false</Logging>
-				</EmbeddedObject>
-				<EmbeddedObject>
 					<Id>1616972343016</Id>
 					<Name><![CDATA[seletorRaioXBagagem]]></Name>
-					<X>960</X><Y>160</Y>
+					<X>1060</X><Y>160</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -12572,7 +12590,7 @@ statsTempRetornoDetector.add(agent.time(SECOND) -iniTempRetornoDetector)]]></Cod
 				<EmbeddedObject>
 					<Id>1616972343046</Id>
 					<Name><![CDATA[retornoRaioX]]></Name>
-					<X>890</X><Y>230</Y>
+					<X>990</X><Y>230</Y>
 					<Label><X>-25</X><Y>40</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -12611,7 +12629,7 @@ statsTempRetornoDetector.add(agent.time(SECOND) -iniTempRetornoDetector)]]></Cod
 						<Parameter>
 							<Name><![CDATA[entityLocation]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[pontoInicio]]></Code>
+								<Code><![CDATA[retornoRaioxLinha]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -12848,347 +12866,6 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 					<InternalLighting>OFF</InternalLighting>
 					<IgnoreSceneLights>false</IgnoreSceneLights>
 				</Figure3D>
-				<Network>
-					<Id>1616780820089</Id>
-					<Name><![CDATA[network]]></Name>
-					<X>73</X><Y>141</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-
-			<Presentation>
-				<Path SourceId="1616780766112" TargetId="1616780785479">
-					<Id>1616780818249</Id>
-					<Name><![CDATA[path]]></Name>
-					<X>70</X><Y>142</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-14774017</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineWidth>1</LineWidth>
-					<PathType>dashedLine</PathType>
-					
-					<Width Class="UnitValue">
-						<Value Class="Double">1</Value>
-						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
-					</Width>
-					<Points>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>17.8</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>73</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>48</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>96.7</X><Y>0</Y><Z>0</Z></Point>
-					</Points>
-					<Bidirectional>true</Bidirectional>
-					<SpeedLimit>false</SpeedLimit>
-					<SpeedLimitValue Class="CodeUnitValue">
-						<Code><![CDATA[10.0]]></Code>
-						<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
-					</SpeedLimitValue>
-					<LimitNumberOfTransporters>false</LimitNumberOfTransporters>
-					<LimitNumberOfTransportersValue>10</LimitNumberOfTransportersValue>
-				</Path>
-				<RectangleNode>
-					<Id>1616780766112</Id>
-					<Name><![CDATA[pontoInicio]]></Name>
-					<X>63</X><Y>138</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<EmbeddedObject>
-						<ActiveObjectClass>
-							<PackageName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></PackageName>
-							<ClassName><![CDATA[AreaNodeDescriptor]]></ClassName>
-						</ActiveObjectClass>
-						<GenericParameterSubstitute>
-							<GenericParameterSubstituteReference>
-								<PackageName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></PackageName>
-								<ClassName><![CDATA[AreaNodeDescriptor]]></ClassName>
-								<ItemName><![CDATA[1574694148121]]></ItemName>
-							</GenericParameterSubstituteReference>
-						</GenericParameterSubstitute>
-						<Parameters>
-							<Parameter>
-								<Name><![CDATA[appliedClass]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[speedRestricted]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[maxSpeed]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[accessRestricted]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[accessRestrictionType]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[accessRestrictionCondition]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[capacity]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[throughput]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[schedule]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[avoidedIfClosed]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[onEnter]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[onEnterDenied]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[onExit]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[onOpen]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[onClose]]></Name>
-							</Parameter>
-						</Parameters>
-						<ReplicationFlag>false</ReplicationFlag>
-						<Replication Class="CodeValue">
-							<Code><![CDATA[100]]></Code>
-						</Replication>
-						<CollectionType>ARRAY_LIST_BASED</CollectionType>
-						<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
-						<XCode Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</XCode>
-						<YCode Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</YCode>
-						<ZCode Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</ZCode>
-						<ColumnCode Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</ColumnCode>
-						<RowCode Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</RowCode>
-						<LatitudeCode Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</LatitudeCode>
-						<LongitudeCode Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</LongitudeCode>
-						<LocationNameCode Class="CodeValue">
-							<Code><![CDATA[""]]></Code>
-						</LocationNameCode>
-						<InitializationType>SPECIFIED_NUMBER</InitializationType>
-						<InitializationDatabaseTableQuery>
-							<TableReference>
-							</TableReference>
-						</InitializationDatabaseTableQuery>
-						<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-						<QuantityColumn>
-						</QuantityColumn>
-					</EmbeddedObject>
-					<LineColor>-14774017</LineColor>
-					<FillColor/>
-					<LineWidth>1</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillMaterial>null</FillMaterial>
-					<LineStyle>DASHED</LineStyle>
-					<AttractorsLayout>random</AttractorsLayout>
-					<Sloped>false</Sloped>
-					<Slope>
-						<Id>1616780766110</Id>
-						<Name><![CDATA[pontoInicio]]></Name>
-						<X>0</X><Y>10</Y>
-						<PublicFlag>false</PublicFlag>
-						<PresentationFlag>true</PresentationFlag>
-						<ShowLabel>true</ShowLabel>
-						<Dx>20</Dx>
-						<Dy>0</Dy>
-						<Dz>0</Dz>
-						<AngleX>30</AngleX>
-						<AngleZ>0</AngleZ>
-						<SlopeType>angle</SlopeType>	
-					</Slope>
-
-					<Width>7</Width>
-					<Height>7</Height>
-					<Rotation>0.0</Rotation>
-				</RectangleNode>
-				<RectangleNode>
-					<Id>1616780785479</Id>
-					<Name><![CDATA[pontoFinal]]></Name>
-					<X>143</X><Y>138</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<EmbeddedObject>
-						<ActiveObjectClass>
-							<PackageName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></PackageName>
-							<ClassName><![CDATA[AreaNodeDescriptor]]></ClassName>
-						</ActiveObjectClass>
-						<GenericParameterSubstitute>
-							<GenericParameterSubstituteReference>
-								<PackageName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></PackageName>
-								<ClassName><![CDATA[AreaNodeDescriptor]]></ClassName>
-								<ItemName><![CDATA[1574694148121]]></ItemName>
-							</GenericParameterSubstituteReference>
-						</GenericParameterSubstitute>
-						<Parameters>
-							<Parameter>
-								<Name><![CDATA[appliedClass]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[speedRestricted]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[maxSpeed]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[accessRestricted]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[accessRestrictionType]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[accessRestrictionCondition]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[capacity]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[throughput]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[schedule]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[avoidedIfClosed]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[onEnter]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[onEnterDenied]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[onExit]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[onOpen]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[onClose]]></Name>
-							</Parameter>
-						</Parameters>
-						<ReplicationFlag>false</ReplicationFlag>
-						<Replication Class="CodeValue">
-							<Code><![CDATA[100]]></Code>
-						</Replication>
-						<CollectionType>ARRAY_LIST_BASED</CollectionType>
-						<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
-						<XCode Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</XCode>
-						<YCode Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</YCode>
-						<ZCode Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</ZCode>
-						<ColumnCode Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</ColumnCode>
-						<RowCode Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</RowCode>
-						<LatitudeCode Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</LatitudeCode>
-						<LongitudeCode Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</LongitudeCode>
-						<LocationNameCode Class="CodeValue">
-							<Code><![CDATA[""]]></Code>
-						</LocationNameCode>
-						<InitializationType>SPECIFIED_NUMBER</InitializationType>
-						<InitializationDatabaseTableQuery>
-							<TableReference>
-							</TableReference>
-						</InitializationDatabaseTableQuery>
-						<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-						<QuantityColumn>
-						</QuantityColumn>
-					</EmbeddedObject>
-					<LineColor>-14774017</LineColor>
-					<FillColor/>
-					<LineWidth>1</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillMaterial>null</FillMaterial>
-					<LineStyle>DASHED</LineStyle>
-					<AttractorsLayout>random</AttractorsLayout>
-					<Sloped>false</Sloped>
-					<Slope>
-						<Id>1616780785477</Id>
-						<Name><![CDATA[pontoFinal]]></Name>
-						<X>0</X><Y>10</Y>
-						<PublicFlag>false</PublicFlag>
-						<PresentationFlag>true</PresentationFlag>
-						<ShowLabel>true</ShowLabel>
-						<Dx>20</Dx>
-						<Dy>0</Dy>
-						<Dz>0</Dz>
-						<AngleX>30</AngleX>
-						<AngleZ>0</AngleZ>
-						<SlopeType>angle</SlopeType>	
-					</Slope>
-
-					<Width>7</Width>
-					<Height>7</Height>
-					<Rotation>0.0</Rotation>
-				</RectangleNode>
-			</Presentation>
-
-					<Z>0</Z>
-				</Network>
-				<PointNode>
-					<Id>1616781048797</Id>
-					<Name><![CDATA[retorno]]></Name>
-					<X>107</X><Y>110</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<FakeNode>false</FakeNode>	
-					<Lock>false</Lock>
-					<Color>-14774017</Color>
-					<Radius>5</Radius>
-					<SpeedLimit>false</SpeedLimit>
-					<SpeedLimitValue Class="UnitValue">
-						<Value Class="Double">10</Value>
-						<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
-					</SpeedLimitValue>
-				</PointNode>
 			</Presentation>
 
 				</Level>
@@ -13893,7 +13570,7 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 				<Connector>
 					<Id>1616692593202</Id>
 					<Name><![CDATA[connector15]]></Name>
-					<X>380</X><Y>260</Y>
+					<X>470</X><Y>260</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -13921,16 +13598,16 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>70</X><Y>0</Y></Point>
-						<Point><X>70</X><Y>110</Y></Point>
-						<Point><X>260</X><Y>110</Y></Point>
-						<Point><X>260</X><Y>200</Y></Point>
-						<Point><X>280</X><Y>200</Y></Point>
+						<Point><X>70</X><Y>80</Y></Point>
+						<Point><X>270</X><Y>80</Y></Point>
+						<Point><X>270</X><Y>140</Y></Point>
+						<Point><X>280</X><Y>140</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1616692593204</Id>
 					<Name><![CDATA[connector17]]></Name>
-					<X>520</X><Y>300</Y>
+					<X>610</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -13965,7 +13642,7 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 				<Connector>
 					<Id>1616692593208</Id>
 					<Name><![CDATA[connector42]]></Name>
-					<X>380</X><Y>280</Y>
+					<X>470</X><Y>280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -13993,14 +13670,14 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>40</X><Y>0</Y></Point>
-						<Point><X>40</X><Y>180</Y></Point>
-						<Point><X>80</X><Y>180</Y></Point>
+						<Point><X>40</X><Y>120</Y></Point>
+						<Point><X>80</X><Y>120</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1616692593212</Id>
 					<Name><![CDATA[connector49]]></Name>
-					<X>380</X><Y>220</Y>
+					<X>470</X><Y>220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14033,7 +13710,7 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 				<Connector>
 					<Id>1616692593216</Id>
 					<Name><![CDATA[connector43]]></Name>
-					<X>830</X><Y>460</Y>
+					<X>920</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14066,7 +13743,7 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 				<Connector>
 					<Id>1616692593218</Id>
 					<Name><![CDATA[connector52]]></Name>
-					<X>700</X><Y>460</Y>
+					<X>790</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14099,7 +13776,7 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 				<Connector>
 					<Id>1616692593220</Id>
 					<Name><![CDATA[connector16]]></Name>
-					<X>660</X><Y>300</Y>
+					<X>750</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14132,7 +13809,7 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 				<Connector>
 					<Id>1616692593222</Id>
 					<Name><![CDATA[connector33]]></Name>
-					<X>660</X><Y>460</Y>
+					<X>750</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14165,7 +13842,7 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 				<Connector>
 					<Id>1616692593224</Id>
 					<Name><![CDATA[connector32]]></Name>
-					<X>560</X><Y>460</Y>
+					<X>650</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14198,7 +13875,7 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 				<Connector>
 					<Id>1616692593228</Id>
 					<Name><![CDATA[connector20]]></Name>
-					<X>940</X><Y>460</Y>
+					<X>1030</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14231,7 +13908,7 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 				<Connector>
 					<Id>1616692856106</Id>
 					<Name><![CDATA[connector]]></Name>
-					<X>960</X><Y>460</Y>
+					<X>1050</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14258,15 +13935,15 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>140</X><Y>0</Y></Point>
-						<Point><X>140</X><Y>-90</Y></Point>
-						<Point><X>195</X><Y>-90</Y></Point>
+						<Point><X>50</X><Y>0</Y></Point>
+						<Point><X>50</X><Y>-30</Y></Point>
+						<Point><X>105</X><Y>-30</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1616692864505</Id>
 					<Name><![CDATA[connector1]]></Name>
-					<X>680</X><Y>300</Y>
+					<X>770</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14293,15 +13970,15 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>420</X><Y>0</Y></Point>
-						<Point><X>420</X><Y>70</Y></Point>
-						<Point><X>475</X><Y>70</Y></Point>
+						<Point><X>330</X><Y>0</Y></Point>
+						<Point><X>330</X><Y>70</Y></Point>
+						<Point><X>385</X><Y>70</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1616698049397</Id>
 					<Name><![CDATA[connector2]]></Name>
-					<X>560</X><Y>220</Y>
+					<X>650</X><Y>220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14334,7 +14011,7 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 				<Connector>
 					<Id>1616698049399</Id>
 					<Name><![CDATA[connector3]]></Name>
-					<X>680</X><Y>220</Y>
+					<X>770</X><Y>220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14361,15 +14038,15 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>420</X><Y>0</Y></Point>
-						<Point><X>420</X><Y>150</Y></Point>
-						<Point><X>475</X><Y>150</Y></Point>
+						<Point><X>330</X><Y>0</Y></Point>
+						<Point><X>330</X><Y>150</Y></Point>
+						<Point><X>385</X><Y>150</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1616700359195</Id>
 					<Name><![CDATA[connector4]]></Name>
-					<X>670</X><Y>230</Y>
+					<X>760</X><Y>230</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14397,15 +14074,15 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>0</X><Y>20</Y></Point>
-						<Point><X>410</X><Y>20</Y></Point>
-						<Point><X>410</X><Y>270</Y></Point>
-						<Point><X>480</X><Y>270</Y></Point>
+						<Point><X>320</X><Y>20</Y></Point>
+						<Point><X>320</X><Y>220</Y></Point>
+						<Point><X>360</X><Y>220</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1616700372795</Id>
 					<Name><![CDATA[connector5]]></Name>
-					<X>670</X><Y>310</Y>
+					<X>760</X><Y>310</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14433,15 +14110,15 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>0</X><Y>20</Y></Point>
-						<Point><X>410</X><Y>20</Y></Point>
-						<Point><X>410</X><Y>190</Y></Point>
-						<Point><X>480</X><Y>190</Y></Point>
+						<Point><X>320</X><Y>20</Y></Point>
+						<Point><X>320</X><Y>140</Y></Point>
+						<Point><X>360</X><Y>140</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1616700380071</Id>
 					<Name><![CDATA[connector6]]></Name>
-					<X>570</X><Y>470</Y>
+					<X>660</X><Y>410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14468,14 +14145,14 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>0</X><Y>30</Y></Point>
-						<Point><X>580</X><Y>30</Y></Point>
+						<Point><X>0</X><Y>40</Y></Point>
+						<Point><X>460</X><Y>40</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1616700385337</Id>
 					<Name><![CDATA[connector7]]></Name>
-					<X>760</X><Y>470</Y>
+					<X>850</X><Y>410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14502,14 +14179,14 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>0</X><Y>30</Y></Point>
-						<Point><X>390</X><Y>30</Y></Point>
+						<Point><X>0</X><Y>40</Y></Point>
+						<Point><X>270</X><Y>40</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1616700390349</Id>
 					<Name><![CDATA[connector8]]></Name>
-					<X>950</X><Y>470</Y>
+					<X>1040</X><Y>410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14536,14 +14213,14 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>0</X><Y>30</Y></Point>
-						<Point><X>200</X><Y>30</Y></Point>
+						<Point><X>0</X><Y>40</Y></Point>
+						<Point><X>80</X><Y>40</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1616700826962</Id>
 					<Name><![CDATA[connector10]]></Name>
-					<X>1190</X><Y>500</Y>
+					<X>1160</X><Y>450</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14570,13 +14247,13 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>60</X><Y>0</Y></Point>
+						<Point><X>40</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1616700850109</Id>
 					<Name><![CDATA[connector11]]></Name>
-					<X>360</X><Y>220</Y>
+					<X>450</X><Y>220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14594,16 +14271,16 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 					<TargetId>1616700881786</TargetId>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-20</X><Y>0</Y></Point>
-						<Point><X>-20</X><Y>-70</Y></Point>
-						<Point><X>890</X><Y>-70</Y></Point>
-						<Point><X>890</X><Y>200</Y></Point>
+						<Point><X>-30</X><Y>0</Y></Point>
+						<Point><X>-30</X><Y>-70</Y></Point>
+						<Point><X>800</X><Y>-70</Y></Point>
+						<Point><X>800</X><Y>200</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1618235631606</Id>
 					<Name><![CDATA[connector12]]></Name>
-					<X>1250</X><Y>500</Y>
+					<X>1200</X><Y>450</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14630,13 +14307,13 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-60</X><Y>0</Y></Point>
+						<Point><X>-40</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1616692593214</Id>
 					<Name><![CDATA[connector25]]></Name>
-					<X>380</X><Y>300</Y>
+					<X>470</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14663,10 +14340,10 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>0</X><Y>230</Y></Point>
-						<Point><X>720</X><Y>230</Y></Point>
-						<Point><X>720</X><Y>70</Y></Point>
-						<Point><X>775</X><Y>70</Y></Point>
+						<Point><X>0</X><Y>130</Y></Point>
+						<Point><X>630</X><Y>130</Y></Point>
+						<Point><X>630</X><Y>70</Y></Point>
+						<Point><X>685</X><Y>70</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -14738,7 +14415,7 @@ statsTempRetornoRaioX.add(agent.time(SECOND) - iniTempRetornoRaioX)]]></Code>
 				<EmbeddedObject>
 					<Id>1616692593039</Id>
 					<Name><![CDATA[revistaManual]]></Name>
-					<X>830</X><Y>450</Y>
+					<X>920</X><Y>390</Y>
 					<Label><X>-24</X><Y>36</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14864,7 +14541,7 @@ iniTempRevistaManual = ped.time(SECOND)]]></Code>
 				<EmbeddedObject>
 					<Id>1616692593063</Id>
 					<Name><![CDATA[seletorRevistaManual]]></Name>
-					<X>930</X><Y>450</Y>
+					<X>1020</X><Y>390</Y>
 					<Label><X>-40</X><Y>-14</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14961,7 +14638,7 @@ iniTempRevistaManual = ped.time(SECOND)]]></Code>
 				<EmbeddedObject>
 					<Id>1616692593087</Id>
 					<Name><![CDATA[detectorManual1]]></Name>
-					<X>460</X><Y>450</Y>
+					<X>550</X><Y>390</Y>
 					<Label><X>-30</X><Y>36</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -15090,7 +14767,7 @@ iniTempDetectorManual = ped.time(SECOND)]]></Code>
 				<EmbeddedObject>
 					<Id>1616692593098</Id>
 					<Name><![CDATA[seletorDetector2]]></Name>
-					<X>550</X><Y>450</Y>
+					<X>640</X><Y>390</Y>
 					<Label><X>-20</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -15184,7 +14861,7 @@ iniTempDetectorManual = ped.time(SECOND)]]></Code>
 				<EmbeddedObject>
 					<Id>1616692593109</Id>
 					<Name><![CDATA[seletorRevistaBagagem]]></Name>
-					<X>740</X><Y>450</Y>
+					<X>830</X><Y>390</Y>
 					<Label><X>-40</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -15275,7 +14952,7 @@ iniTempDetectorManual = ped.time(SECOND)]]></Code>
 				<EmbeddedObject>
 					<Id>1616692593119</Id>
 					<Name><![CDATA[revistaBagagem1]]></Name>
-					<X>660</X><Y>450</Y>
+					<X>750</X><Y>390</Y>
 					<Label><X>-30</X><Y>35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -15404,7 +15081,7 @@ iniTempRevistaBagagem = ped.time(SECOND)]]></Code>
 				<EmbeddedObject>
 					<Id>1616692593141</Id>
 					<Name><![CDATA[revistaBagagem]]></Name>
-					<X>520</X><Y>210</Y>
+					<X>610</X><Y>210</Y>
 					<Label><X>-25</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -15533,7 +15210,7 @@ iniTempRevistaBagagem = ped.time(SECOND)]]></Code>
 				<EmbeddedObject>
 					<Id>1616692593162</Id>
 					<Name><![CDATA[detectorManual]]></Name>
-					<X>520</X><Y>290</Y>
+					<X>610</X><Y>290</Y>
 					<Label><X>-26</X><Y>36</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -15608,12 +15285,12 @@ iniTempDetectorManual = ped.time(SECOND)]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEndService]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[statsTempDetectorManual.add(ped.time(SECOND) - iniTempDetectorManual)]]></Code>
 							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExit]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onCancel]]></Name>
@@ -15662,7 +15339,7 @@ iniTempDetectorManual = ped.time(SECOND)]]></Code>
 				<EmbeddedObject>
 					<Id>1616692593173</Id>
 					<Name><![CDATA[seletorDetector1]]></Name>
-					<X>650</X><Y>290</Y>
+					<X>740</X><Y>290</Y>
 					<Label><X>-20</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -15759,7 +15436,7 @@ iniTempDetectorManual = ped.time(SECOND)]]></Code>
 				<EmbeddedObject>
 					<Id>1616692593183</Id>
 					<Name><![CDATA[seletorSeguranca]]></Name>
-					<X>350</X><Y>220</Y>
+					<X>440</X><Y>220</Y>
 					<Label><X>5</X><Y>-35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -15794,7 +15471,7 @@ iniTempDetectorManual = ped.time(SECOND)]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[!ped.bagagem.objetoSuspeito &&  ped.objetoSuspeitoMetal && !ped.objetoSuspeitoCorpo]]></Code>
+								<Code><![CDATA[ped.objetoSuspeitoMetal]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -15904,7 +15581,7 @@ iniTempDetectorManual = ped.time(SECOND)]]></Code>
 				<EmbeddedObject>
 					<Id>1616698045425</Id>
 					<Name><![CDATA[seletorDetector]]></Name>
-					<X>650</X><Y>210</Y>
+					<X>740</X><Y>210</Y>
 					<Label><X>-20</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -16001,7 +15678,7 @@ iniTempDetectorManual = ped.time(SECOND)]]></Code>
 				<EmbeddedObject>
 					<Id>1616700277188</Id>
 					<Name><![CDATA[saidaSeguranca]]></Name>
-					<X>1150</X><Y>490</Y>
+					<X>1120</X><Y>440</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -16108,8 +15785,8 @@ passageirosComIlicitos++;]]></Code>
 				<EmbeddedObject>
 					<Id>1618235628255</Id>
 					<Name><![CDATA[fim]]></Name>
-					<X>1250</X><Y>500</Y>
-					<Label><X>0</X><Y>-25</Y></Label>
+					<X>1200</X><Y>450</Y>
+					<Label><X>-5</X><Y>15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -17179,7 +16856,7 @@ passageirosComIlicitos++;]]></Code>
 				<Variable Class="Parameter">
 					<Id>1617118978562</Id>
 					<Name><![CDATA[min]]></Name>
-					<X>50</X><Y>50</Y>
+					<X>30</X><Y>30</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17204,7 +16881,7 @@ passageirosComIlicitos++;]]></Code>
 				<Variable Class="Parameter">
 					<Id>1617118980579</Id>
 					<Name><![CDATA[max]]></Name>
-					<X>150</X><Y>50</Y>
+					<X>130</X><Y>30</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17229,7 +16906,7 @@ passageirosComIlicitos++;]]></Code>
 				<Variable Class="Parameter">
 					<Id>1617118983028</Id>
 					<Name><![CDATA[med]]></Name>
-					<X>50</X><Y>100</Y>
+					<X>30</X><Y>80</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17254,7 +16931,7 @@ passageirosComIlicitos++;]]></Code>
 				<Variable Class="Parameter">
 					<Id>1617119021911</Id>
 					<Name><![CDATA[selDist]]></Name>
-					<X>50</X><Y>150</Y>
+					<X>130</X><Y>80</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17305,8 +16982,8 @@ passageirosComIlicitos++;]]></Code>
 					<ReturnType><![CDATA[double]]></ReturnType>
 					<Id>1617122905381</Id>
 					<Name><![CDATA[defineValor]]></Name>
-					<X>150</X><Y>150</Y>
-					<Label><X>15</X><Y>0</Y></Label>
+					<X>90</X><Y>50</Y>
+					<Label><X>-30</X><Y>15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -17655,8 +17332,8 @@ return 0;]]></Body>
 				<ClassName><![CDATA[airport.png]]></ClassName>
 			</IconResourceReference>
 			<VersionMajor>3</VersionMajor>
-			<VersionMinor>2</VersionMinor>
-			<VersionBuild>1</VersionBuild>
+			<VersionMinor>3</VersionMinor>
+			<VersionBuild>0</VersionBuild>
 			<Provider><![CDATA[]]></Provider>    
 		</Library>
 	</Libraries>
